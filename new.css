@@ -1,0 +1,113 @@
+.musquitoImage{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 30px;
+    right: 20px
+}
+    
+    .boxDiv{
+     background-color: lightskyblue;
+     height: 550px;
+     width: 1000px;   
+     position: absolute;
+     left: 15px;
+     top: 15px;
+     border-radius: 10px;
+    }
+
+    .leftBlock{
+        position: absolute;
+        top: 91%;
+        background-color: blanchedalmond;
+        border-radius: 5px;
+        width: 150px;
+        padding: 10px;
+        height: 30px;
+        left: 30px;
+    }
+    .yourScore{
+        text-align: center;
+        font-size: small;
+        position: relative;
+        top: -15px;
+    }
+
+    .scoreCount{
+        text-align: center;
+        position: relative;
+        top: -35px;
+    }
+
+    .rightBlock{
+        position: absolute;
+        top: 91%;
+        right: 10px;
+        background-color: blanchedalmond;
+        border-radius: 5px;
+        width: 150px;
+        padding: 10px;
+        height: 30px;
+        right: 30px;
+    }
+
+    .reset{
+        text-align: center;
+        font-size: small;
+        position: relative;
+        top: -15px;    
+    }
+
+    .gameTitle{
+        position: absolute;
+        top: 88.5%;
+        left: 30%;
+        color: white;
+    }
+
+    .timer-hours{
+        position: absolute;
+        top: 95%;
+        right: 13%;
+    }
+
+    body{
+        background-color: lightcyan;
+    }
+
+    .playerName{
+        position: relative;
+        font-size: medium;
+        font-weight: 600;
+        text-align: center;
+        top: 15px;
+    }
+
+    .outerBox{
+        background-color: darkcyan;
+        position: absolute;
+        top: 10px;
+        left: 170px;
+        bottom: 10px;
+        height: 630px;
+        width: 1030px; 
+    }
+
+    .seconds{
+        position: absolute;
+        top: 95%;
+        right: 7.5%;
+    }
+.nameBlock{
+    background-color: lightseagreen;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    left: 38%;
+    z-index: 10;
+    border-left: 10px;
+    top: 25px;
+    border-bottom-left-radius: 10ps;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
